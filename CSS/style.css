@@ -1,0 +1,34 @@
+.external,
+.heading,
+.inline {
+  color: blueviolet;
+  text-align: left;
+}
+
+ul {
+  color: brown;
+  text-align: left;
+}
+
+li:hover {
+  color: chartreuse;
+  text-align: left;
+}
+
+a:hover {
+  color: red;
+  background-color: yellow;
+}
+
+p.hw::first-line,
+p.hwf::first-letter {
+  color: red;
+  background-color: yellow;
+  font-size: 50px;
+}
+
+div.helloworld {
+  border-style: solid;
+  text-align: center;
+  padding: 50px;
+}
